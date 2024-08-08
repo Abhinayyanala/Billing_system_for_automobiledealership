@@ -33,7 +33,7 @@ create table cars(
     phone VARCHAR(20) NULL,
     billdate DATE NULL
   );
-  create table transc(
+  create table transac(
     id int PRIMARY KEY AUTO_INCREMENT,
     car char(30),
     dpamt int,
@@ -41,6 +41,6 @@ create table cars(
     paymode char(20),
     emi_period int
   );
-  
+
     
 

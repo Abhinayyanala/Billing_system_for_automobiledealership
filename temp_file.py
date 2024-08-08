@@ -35,7 +35,7 @@ def insert_customer(customer: str, phone: int, bill_date):
       return None
 def emi_calculator(price, dpamt, emi_period: int ):
   principal= price-dpamt
-  rate= 0.01
+  rate= 0.12
   emi = (principal * rate *(1 + rate)**emi_period ) / ((1 + rate)**(emi_period)-1)
   return emi
 
